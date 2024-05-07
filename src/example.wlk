@@ -33,7 +33,7 @@ object casaDeAntiguedades {
 // para resover 
 
 object anioActual{
-	var property anio 
+	var property anio = 2024
 	
 	// method anio(unValor){
 	// 	anio = unValor
@@ -47,5 +47,9 @@ object jarron{
 	method esMuyAntigua() = cantidadDeAnios >= 100
 	method vender()
 	method restaurar()
+	method anios() = anioActual.anio() - 1990
 }
-// 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s
+
+
+
+
